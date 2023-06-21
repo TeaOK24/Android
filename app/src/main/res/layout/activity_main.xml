@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -45,7 +44,7 @@
             <TextView
                 style="@style/NumderButton"
                 android:text="AC"
-                android:id="@+id/delete_btn">>
+                android:id="@+id/delete_btn">
             </TextView>
 
             <TextView
@@ -154,6 +153,36 @@
                 style="@style/NumderButton"
                 android:id="@+id/minus_btn"
                 android:text="-">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/ActionButton"
+                android:text="."
+                android:id="@+id/btn_punkt">
+            </TextView>
+
+            <TextView
+                style="@style/ActionButton"
+                android:text="0"
+                android:id="@+id/btn_0">
+            </TextView>
+
+            <TextView
+                style="@style/ActionButton"
+                android:text="Back"
+                android:id="@+id/btn_back">
+            </TextView>
+
+            <TextView
+                style="@style/NumderButton"
+                android:id="@+id/btn_ravno"
+                android:text="=">
             </TextView>
 
         </LinearLayout>
